@@ -16,7 +16,7 @@ class Probleb8: Task {
         
         let maxProduct = stringsArray.map { $0.maxProduct }.max()!
         
-        print(maxProduct.asString(radix: 10))
+        print("answer: \(maxProduct.asString(radix: 10))")
         
         return Date().timeIntervalSince(startDate)
     }

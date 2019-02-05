@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("\(Probleb8.runTask())")
+print("time: \(Probleb8.runTask())")
 
