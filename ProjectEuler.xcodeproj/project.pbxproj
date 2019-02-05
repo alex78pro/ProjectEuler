@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4471FDD422090817001C3A2A /* Swift-Big-Number-Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471FDD322090817001C3A2A /* Swift-Big-Number-Core.swift */; };
+		44ECA8072208E7A200375279 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECA8062208E7A200375279 /* main.swift */; };
+		44ECA80E2208E87B00375279 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECA80D2208E87B00375279 /* Problem8.swift */; };
+		44ECA8102208E8E200375279 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ECA80F2208E8E200375279 /* Protocol.swift */; };
+		A5D73AD44D5FB19A4FC77431 /* Pods_ProjectEuler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448A54D58AE171B38F79B28A /* Pods_ProjectEuler.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44ECA8012208E7A200375279 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B2D49AF8CA5443558B81493 /* Pods-ProjectEuler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEuler.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectEuler/Pods-ProjectEuler.release.xcconfig"; sourceTree = "<group>"; };
+		4471FDD1220906B8001C3A2A /* BigNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BigNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4471FDD322090817001C3A2A /* Swift-Big-Number-Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift-Big-Number-Core.swift"; sourceTree = "<group>"; };
+		448A54D58AE171B38F79B28A /* Pods_ProjectEuler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ECA8032208E7A200375279 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ECA8062208E7A200375279 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		44ECA80D2208E87B00375279 /* Problem8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
+		44ECA80F2208E8E200375279 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		FA375DB1C153B0E3B1B90E28 /* Pods-ProjectEuler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectEuler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectEuler/Pods-ProjectEuler.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44ECA8002208E7A200375279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D73AD44D5FB19A4FC77431 /* Pods_ProjectEuler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44ECA7FA2208E7A200375279 = {
+			isa = PBXGroup;
+			children = (
+				44ECA8052208E7A200375279 /* ProjectEuler */,
+				44ECA8042208E7A200375279 /* Products */,
+				8011C3F3480BE3A2219AEAFB /* Pods */,
+				9B7E733A8E26059DA743F2AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44ECA8042208E7A200375279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44ECA8032208E7A200375279 /* ProjectEuler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ECA8052208E7A200375279 /* ProjectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				44ECA8062208E7A200375279 /* main.swift */,
+				44ECA80D2208E87B00375279 /* Problem8.swift */,
+				44ECA80F2208E8E200375279 /* Protocol.swift */,
+				4471FDD322090817001C3A2A /* Swift-Big-Number-Core.swift */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		8011C3F3480BE3A2219AEAFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA375DB1C153B0E3B1B90E28 /* Pods-ProjectEuler.debug.xcconfig */,
+				3B2D49AF8CA5443558B81493 /* Pods-ProjectEuler.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B7E733A8E26059DA743F2AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4471FDD1220906B8001C3A2A /* BigNumber.framework */,
+				448A54D58AE171B38F79B28A /* Pods_ProjectEuler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44ECA8022208E7A200375279 /* ProjectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ECA80A2208E7A200375279 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildPhases = (
+				C980994438EB545CB46CF141 /* [CP] Check Pods Manifest.lock */,
+				44ECA7FF2208E7A200375279 /* Sources */,
+				44ECA8002208E7A200375279 /* Frameworks */,
+				44ECA8012208E7A200375279 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler;
+			productName = ProjectEuler;
+			productReference = 44ECA8032208E7A200375279 /* ProjectEuler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44ECA7FB2208E7A200375279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alex Pro";
+				TargetAttributes = {
+					44ECA8022208E7A200375279 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 44ECA7FE2208E7A200375279 /* Build configuration list for PBXProject "ProjectEuler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44ECA7FA2208E7A200375279;
+			productRefGroup = 44ECA8042208E7A200375279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44ECA8022208E7A200375279 /* ProjectEuler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C980994438EB545CB46CF141 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectEuler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44ECA7FF2208E7A200375279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ECA80E2208E87B00375279 /* Problem8.swift in Sources */,
+				44ECA8072208E7A200375279 /* main.swift in Sources */,
+				4471FDD422090817001C3A2A /* Swift-Big-Number-Core.swift in Sources */,
+				44ECA8102208E8E200375279 /* Protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44ECA8082208E7A200375279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44ECA8092208E7A200375279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		44ECA80B2208E7A200375279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA375DB1C153B0E3B1B90E28 /* Pods-ProjectEuler.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"'@executable_path/../Frameworks'",
+					"'@loader_path/Frameworks'",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		44ECA80C2208E7A200375279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2D49AF8CA5443558B81493 /* Pods-ProjectEuler.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"'@executable_path/../Frameworks'",
+					"'@loader_path/Frameworks'",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44ECA7FE2208E7A200375279 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ECA8082208E7A200375279 /* Debug */,
+				44ECA8092208E7A200375279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ECA80A2208E7A200375279 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ECA80B2208E7A200375279 /* Debug */,
+				44ECA80C2208E7A200375279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44ECA7FB2208E7A200375279 /* Project object */;
+}
