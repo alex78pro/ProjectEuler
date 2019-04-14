@@ -10,7 +10,7 @@ For example:
 ```
 print(Probleb8.runTask())
 ```
-gives solution for Problen 8 with time execution in seconds:
+gives solution for Problen 8 with time execution in seconds (MacBook Pro (15-inch, 2017), 2.9 GHz Intel Core i7):
 ```
 answer: 23514624000
 
